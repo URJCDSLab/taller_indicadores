@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: ../docs/slides
+  render:
+    - "*.qmd"
+    - "!04_modelos-lineales/"
+
+subtitle: "**Master Universitario en Dirección Internacional del Turismo**<br/>Universidad Rey Juan Carlos"
+author: "Emilio López Cano y Javier Martínez Moguerza"
+format: 
+  revealjs:
+    smart: false
+    html-math-method: katex
+    theme: ["white", "styles/urjc.scss"]
+    transition: "fade"
+    controls: true
+    progress: true
+    slide-number: "c/t"
+    auto-stretch: true
+    center: false
+    # Force reveal.js to eagerly load every slide (including lazy-loaded
+    # <img data-src>) instead of only slides near the current one; needed
+    # so chrome_print's static ?print-pdf render captures all images.
+    view-distance: 9999
+    lang: es
+    width: 1280
+    height: 720
+    filters: 
+      - styles/metropolis-header.lua
+      - styles/custom-block.lua
+    # logo: img_slides/URJClogo.png
+    title-slide-attributes:
+      data-background-image: img_slides/background_fronpage.png
+      data-background-size: 33%
+      data-background-position: center 70%
