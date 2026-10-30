@@ -181,3 +181,17 @@ Social Return on Investment (SROI). Plataforma de gestión de programas.
 ## PACE
 
 ![](img_slides/pace.png)
+
+
+# Recursos
+
+## Shiny, bases de datos y docker
+
+Stack tecnológico para el despliegue de aplicaciones web interactivas de indicadores.
+
+* [Mastering Shiny](https://mastering-shiny.org)
+
+* [Best Practices in Working with Databases](https://solutions.posit.co/connections/db/)
+
+* [Desplegar aplicaciones Shiny a producción en contenedores Docker](https://bastianolea.rbind.io/blog/shiny_docker/)
+
